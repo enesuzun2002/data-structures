@@ -64,6 +64,7 @@ void postorder(TreeNodePtr treePtr){
 
 int randomNumber(){
     int num = (rand() % (25)) + 1;
+    return num;
 }
 
 void main(){
